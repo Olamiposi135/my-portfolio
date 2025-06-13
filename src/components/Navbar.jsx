@@ -73,15 +73,15 @@ const Navbar = () => {
       >
         <ul className="flex flex-col gap-5  bg-blue-950 text-white ">
           <Link to="about" smooth={true} duration={500}>
-            <li className="text-xl px-3 py-6  cursor-pointer border-b-2 border-white hover:text-blue-500  duration-[0.5s]">
+            <li className="text-xl px-3 py-6  cursor-pointer  border-b-2 border-opacity-75 border-white hover:text-blue-500  duration-[0.5s]">
               About
             </li>
           </Link>
-          <li className="text-xl px-3 py-6  cursor-pointer border-b-2 border-white hover:text-blue-500  duration-[0.5s]">
+          <li className="text-xl px-3 py-6  cursor-pointer border-b-2 border-opacity-75 border-white hover:text-blue-500  duration-[0.5s]">
             Portfolio
           </li>
           <Link to="services" smooth={true} duration={500}>
-            <li className="text-xl px-3 py-6  cursor-pointer border-b-2 border-white hover:text-blue-500  duration-[0.5s]">
+            <li className="text-xl px-3 py-6  cursor-pointer border-b-2 border-opacity-75 border-white hover:text-blue-500  duration-[0.5s]">
               Services
             </li>
           </Link>
