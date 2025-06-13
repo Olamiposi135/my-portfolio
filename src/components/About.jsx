@@ -12,7 +12,7 @@ const About = () => {
       className="min-h-screen pb-8  px-12 pt-[130px]    flex flex-col lg:flex-row  gap-10 lg:gap-0 "
     >
       <div className=" w-full lg:w-[40%]   ">
-        <div className="w-full lg:w-[80%] bg-[#1b1448] ring-blue-600 ring-1 lg:pb-10 lg:pl-10 h-full px-20 py-10 lg:px-0 lg:py-0 ">
+        <div className="w-full lg:w-[80%] bg-[#1b1448] ring-blue-600 ring-1 lg:pb-10 lg:pl-10 h-full px-10 py-10 lg:px-0 lg:py-0 ">
           <div className=" w-full relative h-full  ">
             <div className="lg:absolute right-[-60px] top-[-50px] w-full  ">
               <img
@@ -22,7 +22,7 @@ const About = () => {
               />
             </div>
 
-            <div className="flex pt-10 w-full lg:absolute bottom-3 gap-8 text-2xl items-center justify-center lg:justify-start ">
+            <div className="flex pt-10 w-full lg:absolute bottom-3 gap-8 text-3xl items-center justify-center lg:justify-start ">
               <FaXTwitter className="cursor-pointer hover:-translate-y-1 duration-300" />{" "}
               <FaFacebook className="cursor-pointer hover:-translate-y-1 duration-300" />{" "}
               <IoLogoYoutube className="cursor-pointer hover:-translate-y-1 duration-300" />{" "}
