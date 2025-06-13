@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <nav className="hidden relative md:flex text-white justify-between z-10 items-center md:px-14 px-10">
+      <nav className="hidden relative md:flex  justify-between z-10 items-center md:px-14 px-10">
         <div>
           <img
             src="https://websitedemos.net/web-developer-04/wp-content/uploads/sites/1481/2023/06/logo.svg "
@@ -20,26 +20,30 @@ const Navbar = () => {
         <div>
           <ul className="flex gap-10 items-center ">
             <Link to="about" smooth={true} duration={500}>
-              <li className="text-xl font-semibold cursor-pointer opacity-80 hover:opacity-100 duration-[0.5s]">
+              <li className="text-xl font-semibold cursor-pointer opacity-70 hover:opacity-100 duration-[0.5s]">
                 About
               </li>
             </Link>
-            <li className="text-xl font-semibold cursor-pointer opacity-80 hover:opacity-100 duration-[0.5s]">
-              Portfolio
-            </li>
+            <Link to="portfolio" smooth={true} duration={500}>
+              <li className="text-xl font-semibold cursor-pointer opacity-70 hover:opacity-100 duration-[0.5s]">
+                Portfolio
+              </li>
+            </Link>
             <Link to="services" smooth={true} duration={500}>
-              <li className="text-xl font-semibold cursor-pointer opacity-80 hover:opacity-100 duration-[0.5s]">
+              <li className="text-xl font-semibold cursor-pointer opacity-70 hover:opacity-100 duration-[0.5s]">
                 Services
               </li>
             </Link>
 
-            <li className="text-xl font-semibold cursor-pointer opacity-80 hover:opacity-100 duration-[0.5s]">
-              Testimonial
-            </li>
+            <Link to="testimonial" smooth={true} duration={500}>
+              <li className="text-xl font-semibold cursor-pointer opacity-70 hover:opacity-100 duration-[0.5s]">
+                Testimonial
+              </li>
+            </Link>
           </ul>
         </div>
         <div>
-          <button className="font-semibold text-xl py-4 px-8 ring-1 ring-white hover:bg-white hover:text-blue-900 duration-500 ">
+          <button className="font-semibold text-xl py-4 px-8 ring-1 ring-white hover:bg-white hover:text-purple-600 duration-500 ">
             Let's Connect
           </button>
         </div>

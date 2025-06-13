@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <div>
       <div className="relative min-h-screen bg-[url('assets/background.jpg')] bg-cover py-10  ">
-        <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
+        <div className="absolute inset-0 bg-[rgb(13,6,58)] opacity-80 z-0"></div>
 
         <div>
           <Navbar />

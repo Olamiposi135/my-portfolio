@@ -4,10 +4,7 @@ import ServiceCompo from "./ServiceCompo";
 
 const Services = () => {
   return (
-    <div
-      id="services"
-      className="bg-[#0b043a] px-5 md:px-14 py-20 min-h-screen text-white "
-    >
+    <div id="services" className=" px-5 md:px-14 py-20 min-h-screen  ">
       <div className="border-t-2 border-white border-opacity-50 px-3">
         <h1 className="text-5xl md:text-6xl font-semibold md:font-bold py-10 md:py-16">
           Services
