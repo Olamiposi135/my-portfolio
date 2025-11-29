@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 const HeroSection = () => {
   return (
     <div>
-      <div className="relative min-h-screen bg-[url('assets/background.jpg')] bg-cover py-10  ">
+      <div className="relative min-h-screen bg-[url('assets/background.jpg')] bg-contain py-10 lg:bg-cover ">
         <div className="absolute inset-0 bg-[rgb(13,6,58)] opacity-80 z-0"></div>
 
         <div>
